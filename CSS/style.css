@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(4,0,80);
+    background: -moz-linear-gradient(180deg, rgba(4,0,80,1) 0%, rgba(48,0,181,1) 50%, rgba(4,0,80,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(4,0,80,1) 0%, rgba(48,0,181,1) 50%, rgba(4,0,80,1) 100%);
+    background: linear-gradient(180deg, rgba(4,0,80,1) 0%, rgba(48,0,181,1) 50%, rgba(4,0,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040050",endColorstr="#040050",GradientType=1);
+    height: 100vh;
+}
+audio {
+    margin-left: 75vw;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 1;
+}
+div .bar {
+    background: url('https://lh3.googleusercontent.com/oVqD0kOkmp_LuWF8Ydn53RAx1dosLssRBs01m4BQkfPAQpIkaAEloPg4q1QWOvQLE9eD15PM_-gdt5W75nJMm_d7rPLc-v56bEWsxCnMwNDY7qJoszfCC1LoMEUBN4J0S9RyMuV1S0TdQW3Fswg4aYsbC3Sp_o9ksafvLQSfzA4MIC5y36DlluvvwlUwC9TTWJ_BT1W3rOzYIiMTyXNZTRRUBCWXK8yMobkz46v_vZF_cINaiigf6WI96izw8kYa0eBqJn0tW6qTi1h3E-lsGYVNNgY3lBjM0QxnRjVPO3OX7sinQ4rxZrPPHpsWC74MPrH8qEz2ioQDASwPc4pI1muVYdWzwD5wGejDbJcnwsqVWGfpcdixMNogYYNxEz_l_WMTErjv778I0aTdckVtY2py2EAJMSqsfUHMQXLx7TklRIURWglje7g08tM8Ft1BHHyszicClkXQLMz7ybOFC_e98nh_Q3ZotJXQS0-7bA2giblFDaTg0G6t-Y2xLHUfFEgE_ahPqcOpRWs8Ge6zJUlaYM8mgNxseq4CLtOvghPmaP1svD2ExcMl2dpv-Tqbx0csDYY5OxX5ls8ZWuPIc9BQkajRajKMhYTli9fYh30WZfsrXbNcql8gees427feqxMQbln3vgxNEducT5J3frbHztelzQP2WOFeS9dCyYQVcjhK6RpQUggnax-2Yw=w353-h626-no?authuser=0');
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    transition: all 2s linear;
+    width: 20em;
+}
+.menuContent {
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 1em;
+    width: 80%;
+}
+.menuContent img {
+    border-radius: 50%;
+    border: solid 0.4em rgba(151, 191, 255, 0.596);
+    border-style: ridge;
+    cursor: pointer;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: all 2s;
+    width: 60%;
+}
+.menuContent img:hover {
+    transform: rotate(1440deg);
+}
+.menuContent a {
+    text-decoration: none;
+}
+.menuContent .menuLink {
+    background-color: rgba(23, 7, 114, 0.80);
+    border: 0.1em solid rgb(0, 0, 61);
+    border-radius: 50%;
+    color: rgb(151, 191, 255);
+    font-family: 'Concert One', cursive;
+    font-size: 1.8em;
+    margin-bottom: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+}
+.menuLink:hover {
+    background-color: rgba(48,0,181,1);
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+.banner {
+    position: fixed;
+    margin-left: 29em;
+    margin-top: 1.8em;
+}
+.section {
+    margin-left: 26em;
+    padding-top: 1em;
+}
+.section h1 {
+    border-bottom: 0.08em solid whitesmoke; max-width: 26.8em;
+    color: whitesmoke;
+    font-family: 'Concert One', cursive;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+}
+.section .text {
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(151, 191, 255);
+    display: block;
+    font-family: 'Lora', serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    padding: 0.4em;
+    text-align: justify;
+    text-indent: 3em;
+    width: 90%;
+}
+.description {
+    height: 13.75em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    width: 26em;
+}
+.descriptionVideo {
+    height: 13.75em;
+    margin-left: 0.3em;
+    width: 26em;
+}
+.section1 {
+    padding-top: 9em;
+}
+.fansgrid {
+    display: flex;
+}
+.fansgrid .fans {
+    height: 10em;
+    margin-right: 0.1em;
+    transition: all 500ms;
+    width: auto;
+}
+.fansgrid .fans:hover {
+    box-shadow: 0px 0px 50px black, 10px 10px 15px black;
+    transform: scale(3);
+}
+.div7 {
+    display: flex;
+    margin-right:5em;
+}
+.div7 p {
+    background-color: rgba(0, 0, 0, 0.39);
+    color: rgb(151, 191, 255);
+    display: block;
+    font-family: 'Lora', serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-left: 0.2em;
+    padding: 0.4em;
+    text-align: justify;
+    text-indent: 3em;
+    width: 47%;
+}
+.div7p p {
+    margin-left: 0.6em;
+}
+iframe {
+    box-shadow: 5px 5px 10px black;
+    height: 13.75em;
+    margin-right: 0.5em;
+    width: 26em;
+}
+.sawImg, .wallImg {
+    height: auto;
+    width: 26em;
+}
+.section8 a {
+    margin-right: 0.5em;
+}
+img {
+    box-shadow: 5px 5px 10px black;
+}
+.click:hover {
+    box-shadow: 10px 10px 10px black;
+    transform: scale(0.9);
+}
+
+.info a {
+    color: darkblue;
+    display: block;
+    font-family: 'Slabo 13px', serif;;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all 500ms;
+}
+.info a:active,
+.info a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px purple;
+}
+.info h1 {
+    color: black;
+    font-size: 1em;
+    margin: 1em;
+    margin-right: 20%;
+    margin-left: 52%;
+}
